@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/notindex.html", "destination": "/", "permanent": true },
+    { "source": "/notindex", "destination": "/", "permanent": true },
+    { "source": "/jhbjk", "destination": "/", "permanent": true },
+    { "source": "/index", "destination": "/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(favicon.ico|favicon.svg|icon-192.png|icon-512.png|apple-touch-icon.png|og-image.png)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+    }
+  ]
+}
